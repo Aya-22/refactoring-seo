@@ -65,11 +65,15 @@ p {
     background-position: center;
 }
 
-/*Class selectors for float-left and float-right combined*/
-.float-left,
-.float-right {
+
+.float-left {
     float: left;
     margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .content {
